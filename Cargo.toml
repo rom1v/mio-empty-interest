@@ -5,3 +5,6 @@ authors = ["Romain Vimont <rvimont@genymobile.com>"]
 
 [dependencies]
 mio = "0.6"
+
+[replace]
+"mio:0.6.10" = { git = 'https://github.com/rom1v/mio', branch='empty_interest' }
