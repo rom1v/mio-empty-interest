@@ -1,0 +1,7 @@
+[package]
+name = "mio-empty-interest"
+version = "0.1.0"
+authors = ["Romain Vimont <rvimont@genymobile.com>"]
+
+[dependencies]
+mio = "0.6"
